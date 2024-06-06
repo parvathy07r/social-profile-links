@@ -1,0 +1,56 @@
+    img {
+        border-radius: 50%;
+    }
+
+    body {
+        background-color: hsl(0, 0%, 8%);
+    }
+
+    .image-style,
+    .name-style,
+    .text-style,
+    .btn-style {
+
+        text-align: center;
+    }
+
+    .btn-style {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .div-style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+
+    }
+
+    p {
+        font-size: 14px;
+        color: white;
+        
+    }
+
+    h2 {
+        color: white;
+    }
+
+    h4 {
+        color: hsl(75, 94%, 57%);
+    }
+
+    button {
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px 0 10px 0;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: hsl(75, 94%, 57%);
+        ;
+    }
